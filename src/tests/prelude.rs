@@ -11,9 +11,9 @@ pub fn init() {
 }
 
 pub mod prelude {
-    pub use crate::testing::init;
+    pub use crate::tests::common::init;
     pub use hex::{decode as hex_decode, encode as hex_encode};
-    pub use insta::{assert_debug_snapshot, assert_json_snapshot, assert_snapshot};
+    pub use insta::{assert_debug_snapshot, assert_snapshot};
     pub use pretty_assertions::{assert_eq, assert_ne};
     pub use proptest::prelude::*;
     pub use rstest::rstest;

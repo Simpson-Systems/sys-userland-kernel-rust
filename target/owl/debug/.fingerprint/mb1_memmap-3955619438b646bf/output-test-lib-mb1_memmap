@@ -1,0 +1,705 @@
+{"$message_type":"diagnostic","message":"unused import: `color_eyre::owo_colors::colors::xterm`","code":{"code":"unused_imports","explanation":null},"level":"warning","spans":[{"file_name":"src/raw.rs","byte_start":42,"byte_end":79,"line_start":3,"line_end":3,"column_start":5,"column_end":42,"is_primary":true,"text":[{"text":"use color_eyre::owo_colors::colors::xterm;","highlight_start":5,"highlight_end":42}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"`#[warn(unused_imports)]` on by default","code":null,"level":"note","spans":[],"children":[],"rendered":null},{"message":"remove the whole `use` item","code":null,"level":"help","spans":[{"file_name":"src/raw.rs","byte_start":38,"byte_end":81,"line_start":3,"line_end":4,"column_start":1,"column_end":1,"is_primary":true,"text":[{"text":"use color_eyre::owo_colors::colors::xterm;","highlight_start":1,"highlight_end":43},{"text":"","highlight_start":1,"highlight_end":1}],"label":null,"suggested_replacement":"","suggestion_applicability":"MachineApplicable","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: unused import: `color_eyre::owo_colors::colors::xterm`\u001b[0m\n\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/raw.rs:3:5\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m3\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0muse color_eyre::owo_colors::colors::xterm;\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m     \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m= \u001b[0m\u001b[0m\u001b[1mnote\u001b[0m\u001b[0m: `#[warn(unused_imports)]` on by default\u001b[0m\n\n"}
+{"$message_type":"diagnostic","message":"unused import: `crate::tests::common`","code":{"code":"unused_imports","explanation":null},"level":"warning","spans":[{"file_name":"src/raw.rs","byte_start":86,"byte_end":106,"line_start":5,"line_end":5,"column_start":5,"column_end":25,"is_primary":true,"text":[{"text":"use crate::tests::common;","highlight_start":5,"highlight_end":25}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"remove the whole `use` item","code":null,"level":"help","spans":[{"file_name":"src/raw.rs","byte_start":82,"byte_end":108,"line_start":5,"line_end":6,"column_start":1,"column_end":1,"is_primary":true,"text":[{"text":"use crate::tests::common;","highlight_start":1,"highlight_end":26},{"text":"#[repr(C, packed)]","highlight_start":1,"highlight_end":1}],"label":null,"suggested_replacement":"","suggestion_applicability":"MachineApplicable","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: unused import: `crate::tests::common`\u001b[0m\n\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/raw.rs:5:5\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m5\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0muse crate::tests::common;\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m     \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^^^^^^^^^^^^^^^^^^\u001b[0m\n\n"}
+{"$message_type":"diagnostic","message":"unused import: `alloc::vec::Vec`","code":{"code":"unused_imports","explanation":null},"level":"warning","spans":[{"file_name":"src/lib.rs","byte_start":479,"byte_end":494,"line_start":17,"line_end":17,"column_start":5,"column_end":20,"is_primary":true,"text":[{"text":"use alloc::vec::Vec;","highlight_start":5,"highlight_end":20}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"remove the whole `use` item","code":null,"level":"help","spans":[{"file_name":"src/lib.rs","byte_start":475,"byte_end":496,"line_start":17,"line_end":17,"column_start":1,"column_end":22,"is_primary":true,"text":[{"text":"use alloc::vec::Vec;","highlight_start":1,"highlight_end":22}],"label":null,"suggested_replacement":"","suggestion_applicability":"MachineApplicable","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: unused import: `alloc::vec::Vec`\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/lib.rs:17:5\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m17\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0muse alloc::vec::Vec;\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m     \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^^^^^^^^^^^^^\u001b[0m\n\n"}
+2026-02-16T20:54:16.725Z INFO  [rustowlc::core] start borrowck of DefId(0:66 ~ mb1_memmap[f6a0]::raw::tests::MIN_PAYLOAD)
+2026-02-16T20:54:16.768Z INFO  [rustowlc::core::analyze] facts of DefId(0:66 ~ mb1_memmap[f6a0]::raw::tests::MIN_PAYLOAD) prepared; start analyze of DefId(0:66 ~ mb1_memmap[f6a0]::raw::tests::MIN_PAYLOAD)
+2026-02-16T20:54:16.770Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.771Z INFO  [rustowlc::core] borrow checked: 1 / 116
+2026-02-16T20:54:16.773Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.777Z INFO  [rustowlc::core] start borrowck of DefId(0:206 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected)
+2026-02-16T20:54:16.789Z INFO  [rustowlc::core] start borrowck of DefId(0:207 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected::{closure#0})
+2026-02-16T20:54:16.798Z INFO  [rustowlc::core::analyze] facts of DefId(0:207 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected::{closure#0}) prepared; start analyze of DefId(0:207 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected::{closure#0})
+2026-02-16T20:54:16.799Z INFO  [rustowlc::core] borrow checked: 2 / 116
+2026-02-16T20:54:16.798Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.799Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.799Z INFO  [rustowlc::core::analyze] facts of DefId(0:206 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected) prepared; start analyze of DefId(0:206 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected)
+2026-02-16T20:54:16.800Z INFO  [rustowlc::core] borrow checked: 3 / 116
+2026-02-16T20:54:16.800Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.800Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.803Z INFO  [rustowlc::core] start borrowck of DefId(0:212 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal)
+2026-02-16T20:54:16.803Z INFO  [rustowlc::core] start borrowck of DefId(0:213 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal::{closure#0})
+2026-02-16T20:54:16.804Z INFO  [rustowlc::core::analyze] facts of DefId(0:213 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal::{closure#0}) prepared; start analyze of DefId(0:213 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal::{closure#0})
+2026-02-16T20:54:16.804Z INFO  [rustowlc::core] borrow checked: 4 / 116
+2026-02-16T20:54:16.804Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.804Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.804Z INFO  [rustowlc::core::analyze] facts of DefId(0:212 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal) prepared; start analyze of DefId(0:212 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal)
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core] borrow checked: 5 / 116
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core] start borrowck of DefId(0:220 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal)
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core] start borrowck of DefId(0:221 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal::{closure#0})
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core::analyze] facts of DefId(0:221 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal::{closure#0}) prepared; start analyze of DefId(0:221 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal::{closure#0})
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core] borrow checked: 6 / 116
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.805Z INFO  [rustowlc::core::analyze] facts of DefId(0:220 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal) prepared; start analyze of DefId(0:220 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal)
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core] borrow checked: 7 / 116
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core] start borrowck of DefId(0:225 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal)
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core] start borrowck of DefId(0:226 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal::{closure#0})
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core::analyze] facts of DefId(0:226 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal::{closure#0}) prepared; start analyze of DefId(0:226 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal::{closure#0})
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core] borrow checked: 8 / 116
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.806Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.807Z INFO  [rustowlc::core::analyze] facts of DefId(0:225 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal) prepared; start analyze of DefId(0:225 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal)
+2026-02-16T20:54:16.807Z INFO  [rustowlc::core] borrow checked: 9 / 116
+2026-02-16T20:54:16.807Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.807Z INFO  [rustowlc::core] start borrowck of DefId(0:233 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes)
+2026-02-16T20:54:16.807Z INFO  [rustowlc::core] start borrowck of DefId(0:234 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes::{closure#0})
+2026-02-16T20:54:16.807Z INFO  [rustowlc::core::analyze] facts of DefId(0:234 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes::{closure#0}) prepared; start analyze of DefId(0:234 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes::{closure#0})
+2026-02-16T20:54:16.808Z INFO  [rustowlc::core] borrow checked: 10 / 116
+2026-02-16T20:54:16.808Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.808Z INFO  [rustowlc::core::analyze] facts of DefId(0:233 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes) prepared; start analyze of DefId(0:233 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes)
+2026-02-16T20:54:16.808Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.808Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.808Z INFO  [rustowlc::core] borrow checked: 11 / 116
+2026-02-16T20:54:16.808Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.808Z INFO  [rustowlc::core] start borrowck of DefId(0:240 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries)
+2026-02-16T20:54:16.809Z INFO  [rustowlc::core] start borrowck of DefId(0:241 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries::{closure#0})
+2026-02-16T20:54:16.809Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.809Z INFO  [rustowlc::core::analyze] facts of DefId(0:241 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries::{closure#0}) prepared; start analyze of DefId(0:241 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries::{closure#0})
+2026-02-16T20:54:16.809Z INFO  [rustowlc::core] borrow checked: 12 / 116
+2026-02-16T20:54:16.809Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.809Z INFO  [rustowlc::core::analyze] facts of DefId(0:240 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries) prepared; start analyze of DefId(0:240 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries)
+2026-02-16T20:54:16.809Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.810Z INFO  [rustowlc::core] borrow checked: 13 / 116
+2026-02-16T20:54:16.810Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.810Z INFO  [rustowlc::core] start borrowck of DefId(0:247 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header)
+2026-02-16T20:54:16.810Z INFO  [rustowlc::core] start borrowck of DefId(0:248 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header::{closure#0})
+2026-02-16T20:54:16.810Z INFO  [rustowlc::core::analyze] facts of DefId(0:248 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header::{closure#0}) prepared; start analyze of DefId(0:248 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header::{closure#0})
+2026-02-16T20:54:16.810Z INFO  [rustowlc::core] borrow checked: 14 / 116
+2026-02-16T20:54:16.810Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.811Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.811Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.811Z INFO  [rustowlc::core::analyze] facts of DefId(0:247 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header) prepared; start analyze of DefId(0:247 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header)
+2026-02-16T20:54:16.811Z INFO  [rustowlc::core] borrow checked: 15 / 116
+2026-02-16T20:54:16.811Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.811Z INFO  [rustowlc::core] start borrowck of DefId(0:252 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20)
+2026-02-16T20:54:16.812Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.812Z INFO  [rustowlc::core] start borrowck of DefId(0:253 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20::{closure#0})
+2026-02-16T20:54:16.812Z INFO  [rustowlc::core::analyze] facts of DefId(0:253 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20::{closure#0}) prepared; start analyze of DefId(0:253 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20::{closure#0})
+2026-02-16T20:54:16.812Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.812Z INFO  [rustowlc::core] borrow checked: 16 / 116
+2026-02-16T20:54:16.812Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.813Z INFO  [rustowlc::core::analyze] facts of DefId(0:252 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20) prepared; start analyze of DefId(0:252 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20)
+2026-02-16T20:54:16.814Z INFO  [rustowlc::core] borrow checked: 17 / 116
+2026-02-16T20:54:16.814Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.814Z INFO  [rustowlc::core] start borrowck of DefId(0:257 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry)
+2026-02-16T20:54:16.814Z INFO  [rustowlc::core] start borrowck of DefId(0:258 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry::{closure#0})
+2026-02-16T20:54:16.814Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.814Z INFO  [rustowlc::core::analyze] facts of DefId(0:258 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry::{closure#0}) prepared; start analyze of DefId(0:258 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry::{closure#0})
+2026-02-16T20:54:16.815Z INFO  [rustowlc::core] borrow checked: 18 / 116
+2026-02-16T20:54:16.815Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.815Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.815Z INFO  [rustowlc::core::analyze] facts of DefId(0:257 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry) prepared; start analyze of DefId(0:257 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry)
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core] borrow checked: 19 / 116
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core] start borrowck of DefId(0:262 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok)
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core] start borrowck of DefId(0:263 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok::{closure#0})
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core::analyze] facts of DefId(0:263 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok::{closure#0}) prepared; start analyze of DefId(0:263 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok::{closure#0})
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core] borrow checked: 20 / 116
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.816Z INFO  [rustowlc::core::analyze] facts of DefId(0:262 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok) prepared; start analyze of DefId(0:262 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok)
+2026-02-16T20:54:16.817Z INFO  [rustowlc::core] borrow checked: 21 / 116
+2026-02-16T20:54:16.817Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.817Z INFO  [rustowlc::core] start borrowck of DefId(0:271 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload)
+2026-02-16T20:54:16.817Z INFO  [rustowlc::core] start borrowck of DefId(0:272 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload::{closure#0})
+2026-02-16T20:54:16.817Z INFO  [rustowlc::core::analyze] facts of DefId(0:272 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload::{closure#0}) prepared; start analyze of DefId(0:272 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload::{closure#0})
+2026-02-16T20:54:16.818Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.818Z INFO  [rustowlc::core] borrow checked: 22 / 116
+2026-02-16T20:54:16.818Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.818Z INFO  [rustowlc::core::analyze] facts of DefId(0:271 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload) prepared; start analyze of DefId(0:271 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload)
+2026-02-16T20:54:16.818Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core] borrow checked: 23 / 116
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core] start borrowck of DefId(0:280 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends)
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core] start borrowck of DefId(0:281 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends::{closure#0})
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core::analyze] facts of DefId(0:281 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends::{closure#0}) prepared; start analyze of DefId(0:281 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends::{closure#0})
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core] borrow checked: 24 / 116
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.819Z INFO  [rustowlc::core::analyze] facts of DefId(0:280 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends) prepared; start analyze of DefId(0:280 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends)
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core] borrow checked: 25 / 116
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core] start borrowck of DefId(0:285 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order)
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core] start borrowck of DefId(0:286 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order::{closure#0})
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core::analyze] facts of DefId(0:286 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order::{closure#0}) prepared; start analyze of DefId(0:286 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order::{closure#0})
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core] borrow checked: 26 / 116
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.820Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.821Z INFO  [rustowlc::core::analyze] facts of DefId(0:285 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order) prepared; start analyze of DefId(0:285 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order)
+2026-02-16T20:54:16.821Z INFO  [rustowlc::core] borrow checked: 27 / 116
+2026-02-16T20:54:16.821Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.822Z INFO  [rustowlc::core] start borrowck of DefId(0:291 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop)
+2026-02-16T20:54:16.822Z INFO  [rustowlc::core] start borrowck of DefId(0:292 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop::{closure#0})
+2026-02-16T20:54:16.822Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.822Z INFO  [rustowlc::core::analyze] facts of DefId(0:292 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop::{closure#0}) prepared; start analyze of DefId(0:292 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop::{closure#0})
+2026-02-16T20:54:16.822Z INFO  [rustowlc::core] borrow checked: 28 / 116
+2026-02-16T20:54:16.822Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.822Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.822Z INFO  [rustowlc::core::analyze] facts of DefId(0:291 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop) prepared; start analyze of DefId(0:291 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop)
+2026-02-16T20:54:16.823Z INFO  [rustowlc::core] borrow checked: 29 / 116
+2026-02-16T20:54:16.823Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.823Z INFO  [rustowlc::core] start borrowck of DefId(0:296 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops)
+2026-02-16T20:54:16.823Z INFO  [rustowlc::core] start borrowck of DefId(0:297 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops::{closure#0})
+2026-02-16T20:54:16.823Z INFO  [rustowlc::core::analyze] facts of DefId(0:297 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops::{closure#0}) prepared; start analyze of DefId(0:297 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops::{closure#0})
+2026-02-16T20:54:16.824Z INFO  [rustowlc::core] borrow checked: 30 / 116
+2026-02-16T20:54:16.824Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.824Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.824Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.824Z INFO  [rustowlc::core::analyze] facts of DefId(0:296 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops) prepared; start analyze of DefId(0:296 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops)
+2026-02-16T20:54:16.825Z INFO  [rustowlc::core] borrow checked: 31 / 116
+2026-02-16T20:54:16.825Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.825Z INFO  [rustowlc::core] start borrowck of DefId(0:76 ~ mb1_memmap[f6a0]::tests::prelude::INIT)
+2026-02-16T20:54:16.825Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.829Z INFO  [rustowlc::core::analyze] facts of DefId(0:76 ~ mb1_memmap[f6a0]::tests::prelude::INIT) prepared; start analyze of DefId(0:76 ~ mb1_memmap[f6a0]::tests::prelude::INIT)
+2026-02-16T20:54:16.829Z INFO  [rustowlc::core] borrow checked: 32 / 116
+2026-02-16T20:54:16.829Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.829Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.836Z INFO  [rustowlc::core] start borrowck of DefId(0:96 ~ mb1_memmap[f6a0]::tests::prelude::hexdump::BYTES_PER_LINE)
+2026-02-16T20:54:16.836Z INFO  [rustowlc::core::analyze] facts of DefId(0:96 ~ mb1_memmap[f6a0]::tests::prelude::hexdump::BYTES_PER_LINE) prepared; start analyze of DefId(0:96 ~ mb1_memmap[f6a0]::tests::prelude::hexdump::BYTES_PER_LINE)
+2026-02-16T20:54:16.836Z INFO  [rustowlc::core] borrow checked: 33 / 116
+2026-02-16T20:54:16.836Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.836Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.896Z INFO  [rustowlc::core] start borrowck of DefId(0:106 ~ mb1_memmap[f6a0]::frames::{impl#6}::clone)
+2026-02-16T20:54:16.896Z INFO  [rustowlc::core::analyze] facts of DefId(0:106 ~ mb1_memmap[f6a0]::frames::{impl#6}::clone) prepared; start analyze of DefId(0:106 ~ mb1_memmap[f6a0]::frames::{impl#6}::clone)
+2026-02-16T20:54:16.896Z INFO  [rustowlc::core] borrow checked: 34 / 116
+2026-02-16T20:54:16.896Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.896Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.896Z INFO  [rustowlc::core] start borrowck of DefId(0:109 ~ mb1_memmap[f6a0]::frames::{impl#8}::fmt)
+2026-02-16T20:54:16.897Z INFO  [rustowlc::core::analyze] facts of DefId(0:109 ~ mb1_memmap[f6a0]::frames::{impl#8}::fmt) prepared; start analyze of DefId(0:109 ~ mb1_memmap[f6a0]::frames::{impl#8}::fmt)
+2026-02-16T20:54:16.898Z INFO  [rustowlc::core] borrow checked: 35 / 116
+2026-02-16T20:54:16.898Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.898Z INFO  [rustowlc::core] start borrowck of DefId(0:112 ~ mb1_memmap[f6a0]::frames::{impl#10}::eq)
+2026-02-16T20:54:16.898Z INFO  [rustowlc::core::analyze] facts of DefId(0:112 ~ mb1_memmap[f6a0]::frames::{impl#10}::eq) prepared; start analyze of DefId(0:112 ~ mb1_memmap[f6a0]::frames::{impl#10}::eq)
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core] borrow checked: 36 / 116
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core] start borrowck of DefId(0:114 ~ mb1_memmap[f6a0]::frames::{impl#11}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core::analyze] facts of DefId(0:114 ~ mb1_memmap[f6a0]::frames::{impl#11}::assert_receiver_is_total_eq) prepared; start analyze of DefId(0:114 ~ mb1_memmap[f6a0]::frames::{impl#11}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core] borrow checked: 37 / 116
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core] start borrowck of DefId(0:6 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_size_unaligned)
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core::analyze] facts of DefId(0:6 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_size_unaligned) prepared; start analyze of DefId(0:6 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_size_unaligned)
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core] borrow checked: 38 / 116
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core] start borrowck of DefId(0:7 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_base_addr_unaligned)
+2026-02-16T20:54:16.899Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] facts of DefId(0:7 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_base_addr_unaligned) prepared; start analyze of DefId(0:7 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_base_addr_unaligned)
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core] borrow checked: 39 / 116
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core] start borrowck of DefId(0:8 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_length_unaligned)
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] facts of DefId(0:8 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_length_unaligned) prepared; start analyze of DefId(0:8 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_length_unaligned)
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core] borrow checked: 40 / 116
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core] start borrowck of DefId(0:9 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_type_unaligned)
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] facts of DefId(0:9 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_type_unaligned) prepared; start analyze of DefId(0:9 ~ mb1_memmap[f6a0]::frames::{impl#0}::get_type_unaligned)
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core] borrow checked: 41 / 116
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core] start borrowck of DefId(0:124 ~ mb1_memmap[f6a0]::frames::{impl#12}::clone)
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.900Z INFO  [rustowlc::core::analyze] facts of DefId(0:124 ~ mb1_memmap[f6a0]::frames::{impl#12}::clone) prepared; start analyze of DefId(0:124 ~ mb1_memmap[f6a0]::frames::{impl#12}::clone)
+2026-02-16T20:54:16.901Z INFO  [rustowlc::core] borrow checked: 42 / 116
+2026-02-16T20:54:16.901Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.901Z INFO  [rustowlc::core] start borrowck of DefId(0:126 ~ mb1_memmap[f6a0]::frames::{impl#13}::fmt)
+2026-02-16T20:54:16.902Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.902Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.903Z INFO  [rustowlc::core::analyze] facts of DefId(0:126 ~ mb1_memmap[f6a0]::frames::{impl#13}::fmt) prepared; start analyze of DefId(0:126 ~ mb1_memmap[f6a0]::frames::{impl#13}::fmt)
+2026-02-16T20:54:16.904Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.904Z INFO  [rustowlc::core] borrow checked: 43 / 116
+2026-02-16T20:54:16.904Z INFO  [rustowlc::core] start borrowck of DefId(0:129 ~ mb1_memmap[f6a0]::frames::{impl#15}::eq)
+2026-02-16T20:54:16.906Z INFO  [rustowlc::core::analyze] facts of DefId(0:129 ~ mb1_memmap[f6a0]::frames::{impl#15}::eq) prepared; start analyze of DefId(0:129 ~ mb1_memmap[f6a0]::frames::{impl#15}::eq)
+2026-02-16T20:54:16.907Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.907Z INFO  [rustowlc::core] borrow checked: 44 / 116
+2026-02-16T20:54:16.907Z INFO  [rustowlc::core] start borrowck of DefId(0:131 ~ mb1_memmap[f6a0]::frames::{impl#16}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core::analyze] facts of DefId(0:131 ~ mb1_memmap[f6a0]::frames::{impl#16}::assert_receiver_is_total_eq) prepared; start analyze of DefId(0:131 ~ mb1_memmap[f6a0]::frames::{impl#16}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core] borrow checked: 45 / 116
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core] start borrowck of DefId(0:10 ~ mb1_memmap[f6a0]::frames::raw)
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core::analyze] facts of DefId(0:10 ~ mb1_memmap[f6a0]::frames::raw) prepared; start analyze of DefId(0:10 ~ mb1_memmap[f6a0]::frames::raw)
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core] borrow checked: 46 / 116
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core::analyze] borrow check finished
+{"$message_type":"diagnostic","message":"unused variable: `buf`","code":{"code":"unused_variables","explanation":null},"level":"warning","spans":[{"file_name":"src/frames.rs","byte_start":4121,"byte_end":4124,"line_start":146,"line_end":146,"column_start":19,"column_end":22,"is_primary":true,"text":[{"text":"pub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {","highlight_start":19,"highlight_end":22}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"`#[warn(unused_variables)]` on by default","code":null,"level":"note","spans":[],"children":[],"rendered":null},{"message":"if this is intentional, prefix it with an underscore","code":null,"level":"help","spans":[{"file_name":"src/frames.rs","byte_start":4121,"byte_end":4124,"line_start":146,"line_end":146,"column_start":19,"column_end":22,"is_primary":true,"text":[{"text":"pub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {","highlight_start":19,"highlight_end":22}],"label":null,"suggested_replacement":"_buf","suggestion_applicability":"MaybeIncorrect","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: unused variable: `buf`\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/frames.rs:146:19\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m146\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mpub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m                   \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[33mhelp: if this is intentional, prefix it with an underscore: `_buf`\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m= \u001b[0m\u001b[0m\u001b[1mnote\u001b[0m\u001b[0m: `#[warn(unused_variables)]` on by default\u001b[0m\n\n"}
+{"$message_type":"diagnostic","message":"unused variable: `entry`","code":{"code":"unused_variables","explanation":null},"level":"warning","spans":[{"file_name":"src/frames.rs","byte_start":4140,"byte_end":4145,"line_start":146,"line_end":146,"column_start":38,"column_end":43,"is_primary":true,"text":[{"text":"pub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {","highlight_start":38,"highlight_end":43}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"if this is intentional, prefix it with an underscore","code":null,"level":"help","spans":[{"file_name":"src/frames.rs","byte_start":4140,"byte_end":4145,"line_start":146,"line_end":146,"column_start":38,"column_end":43,"is_primary":true,"text":[{"text":"pub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {","highlight_start":38,"highlight_end":43}],"label":null,"suggested_replacement":"_entry","suggestion_applicability":"MaybeIncorrect","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: unused variable: `entry`\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/frames.rs:146:38\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m146\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mpub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m                                      \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^^^\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[33mhelp: if this is intentional, prefix it with an underscore: `_entry`\u001b[0m\n\n"}
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core] start borrowck of DefId(0:11 ~ mb1_memmap[f6a0]::frames::push_entry)
+2026-02-16T20:54:16.908Z INFO  [rustowlc::core::analyze] facts of DefId(0:11 ~ mb1_memmap[f6a0]::frames::push_entry) prepared; start analyze of DefId(0:11 ~ mb1_memmap[f6a0]::frames::push_entry)
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core] borrow checked: 47 / 116
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+{"$message_type":"diagnostic","message":"unused variable: `buf`","code":{"code":"unused_variables","explanation":null},"level":"warning","spans":[{"file_name":"src/frames.rs","byte_start":5168,"byte_end":5171,"line_start":185,"line_end":185,"column_start":17,"column_end":20,"is_primary":true,"text":[{"text":"pub fn read_one(buf: &[u8]) -> Result<(RawEntry, usize), MmapError> {","highlight_start":17,"highlight_end":20}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"if this is intentional, prefix it with an underscore","code":null,"level":"help","spans":[{"file_name":"src/frames.rs","byte_start":5168,"byte_end":5171,"line_start":185,"line_end":185,"column_start":17,"column_end":20,"is_primary":true,"text":[{"text":"pub fn read_one(buf: &[u8]) -> Result<(RawEntry, usize), MmapError> {","highlight_start":17,"highlight_end":20}],"label":null,"suggested_replacement":"_buf","suggestion_applicability":"MaybeIncorrect","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: unused variable: `buf`\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/frames.rs:185:17\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m185\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mpub fn read_one(buf: &[u8]) -> Result<(RawEntry, usize), MmapError> {\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m                 \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[33mhelp: if this is intentional, prefix it with an underscore: `_buf`\u001b[0m\n\n"}
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core] start borrowck of DefId(0:12 ~ mb1_memmap[f6a0]::frames::read_one)
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] facts of DefId(0:12 ~ mb1_memmap[f6a0]::frames::read_one) prepared; start analyze of DefId(0:12 ~ mb1_memmap[f6a0]::frames::read_one)
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core] borrow checked: 48 / 116
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core] start borrowck of DefId(0:18 ~ mb1_memmap[f6a0]::frames::{impl#1}::new)
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] facts of DefId(0:18 ~ mb1_memmap[f6a0]::frames::{impl#1}::new) prepared; start analyze of DefId(0:18 ~ mb1_memmap[f6a0]::frames::{impl#1}::new)
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core] borrow checked: 49 / 116
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core] start borrowck of DefId(0:22 ~ mb1_memmap[f6a0]::frames::{impl#2}::next)
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] facts of DefId(0:22 ~ mb1_memmap[f6a0]::frames::{impl#2}::next) prepared; start analyze of DefId(0:22 ~ mb1_memmap[f6a0]::frames::{impl#2}::next)
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core] borrow checked: 50 / 116
+2026-02-16T20:54:16.909Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.910Z INFO  [rustowlc::core] start borrowck of DefId(0:137 ~ mb1_memmap[f6a0]::frames::{impl#17}::clone)
+2026-02-16T20:54:16.910Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.910Z INFO  [rustowlc::core::analyze] facts of DefId(0:137 ~ mb1_memmap[f6a0]::frames::{impl#17}::clone) prepared; start analyze of DefId(0:137 ~ mb1_memmap[f6a0]::frames::{impl#17}::clone)
+2026-02-16T20:54:16.910Z INFO  [rustowlc::core] borrow checked: 51 / 116
+2026-02-16T20:54:16.910Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.910Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.910Z INFO  [rustowlc::core] start borrowck of DefId(0:140 ~ mb1_memmap[f6a0]::frames::{impl#19}::fmt)
+2026-02-16T20:54:16.911Z INFO  [rustowlc::core::analyze] facts of DefId(0:140 ~ mb1_memmap[f6a0]::frames::{impl#19}::fmt) prepared; start analyze of DefId(0:140 ~ mb1_memmap[f6a0]::frames::{impl#19}::fmt)
+2026-02-16T20:54:16.911Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.912Z INFO  [rustowlc::core] borrow checked: 52 / 116
+2026-02-16T20:54:16.912Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.912Z INFO  [rustowlc::core] start borrowck of DefId(0:143 ~ mb1_memmap[f6a0]::frames::{impl#21}::eq)
+2026-02-16T20:54:16.913Z INFO  [rustowlc::core::analyze] facts of DefId(0:143 ~ mb1_memmap[f6a0]::frames::{impl#21}::eq) prepared; start analyze of DefId(0:143 ~ mb1_memmap[f6a0]::frames::{impl#21}::eq)
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core] borrow checked: 53 / 116
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core] start borrowck of DefId(0:145 ~ mb1_memmap[f6a0]::frames::{impl#22}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core::analyze] facts of DefId(0:145 ~ mb1_memmap[f6a0]::frames::{impl#22}::assert_receiver_is_total_eq) prepared; start analyze of DefId(0:145 ~ mb1_memmap[f6a0]::frames::{impl#22}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core] borrow checked: 54 / 116
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core] start borrowck of DefId(0:24 ~ mb1_memmap[f6a0]::frames::{impl#3}::end)
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.914Z INFO  [rustowlc::core::analyze] facts of DefId(0:24 ~ mb1_memmap[f6a0]::frames::{impl#3}::end) prepared; start analyze of DefId(0:24 ~ mb1_memmap[f6a0]::frames::{impl#3}::end)
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core] borrow checked: 55 / 116
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+{"$message_type":"diagnostic","message":"unused variable: `e`","code":{"code":"unused_variables","explanation":null},"level":"warning","spans":[{"file_name":"src/frames.rs","byte_start":8548,"byte_end":8549,"line_start":316,"line_end":316,"column_start":17,"column_end":18,"is_primary":true,"text":[{"text":"pub fn sanitize(e: RawEntry) -> Option<MemRegion> {","highlight_start":17,"highlight_end":18}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"if this is intentional, prefix it with an underscore","code":null,"level":"help","spans":[{"file_name":"src/frames.rs","byte_start":8548,"byte_end":8549,"line_start":316,"line_end":316,"column_start":17,"column_end":18,"is_primary":true,"text":[{"text":"pub fn sanitize(e: RawEntry) -> Option<MemRegion> {","highlight_start":17,"highlight_end":18}],"label":null,"suggested_replacement":"_e","suggestion_applicability":"MaybeIncorrect","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: unused variable: `e`\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/frames.rs:316:17\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m316\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mpub fn sanitize(e: RawEntry) -> Option<MemRegion> {\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m                 \u001b[0m\u001b[0m\u001b[1m\u001b[33m^\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[33mhelp: if this is intentional, prefix it with an underscore: `_e`\u001b[0m\n\n"}
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core] start borrowck of DefId(0:25 ~ mb1_memmap[f6a0]::frames::sanitize)
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] facts of DefId(0:25 ~ mb1_memmap[f6a0]::frames::sanitize) prepared; start analyze of DefId(0:25 ~ mb1_memmap[f6a0]::frames::sanitize)
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core] borrow checked: 56 / 116
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core] start borrowck of DefId(0:150 ~ mb1_memmap[f6a0]::frames::{impl#23}::clone)
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] facts of DefId(0:150 ~ mb1_memmap[f6a0]::frames::{impl#23}::clone) prepared; start analyze of DefId(0:150 ~ mb1_memmap[f6a0]::frames::{impl#23}::clone)
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core] borrow checked: 57 / 116
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core] start borrowck of DefId(0:153 ~ mb1_memmap[f6a0]::frames::{impl#25}::fmt)
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.915Z INFO  [rustowlc::core::analyze] facts of DefId(0:153 ~ mb1_memmap[f6a0]::frames::{impl#25}::fmt) prepared; start analyze of DefId(0:153 ~ mb1_memmap[f6a0]::frames::{impl#25}::fmt)
+2026-02-16T20:54:16.916Z INFO  [rustowlc::core] borrow checked: 58 / 116
+2026-02-16T20:54:16.916Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.916Z INFO  [rustowlc::core] start borrowck of DefId(0:156 ~ mb1_memmap[f6a0]::frames::{impl#27}::eq)
+2026-02-16T20:54:16.916Z INFO  [rustowlc::core::analyze] facts of DefId(0:156 ~ mb1_memmap[f6a0]::frames::{impl#27}::eq) prepared; start analyze of DefId(0:156 ~ mb1_memmap[f6a0]::frames::{impl#27}::eq)
+2026-02-16T20:54:16.916Z INFO  [rustowlc::core] borrow checked: 59 / 116
+2026-02-16T20:54:16.916Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.916Z INFO  [rustowlc::core] start borrowck of DefId(0:158 ~ mb1_memmap[f6a0]::frames::{impl#28}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.917Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.917Z INFO  [rustowlc::core::analyze] facts of DefId(0:158 ~ mb1_memmap[f6a0]::frames::{impl#28}::assert_receiver_is_total_eq) prepared; start analyze of DefId(0:158 ~ mb1_memmap[f6a0]::frames::{impl#28}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.917Z INFO  [rustowlc::core] borrow checked: 60 / 116
+2026-02-16T20:54:16.917Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.917Z INFO  [rustowlc::core] start borrowck of DefId(0:26 ~ mb1_memmap[f6a0]::frames::align_up)
+2026-02-16T20:54:16.917Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.917Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.917Z INFO  [rustowlc::core::analyze] facts of DefId(0:26 ~ mb1_memmap[f6a0]::frames::align_up) prepared; start analyze of DefId(0:26 ~ mb1_memmap[f6a0]::frames::align_up)
+2026-02-16T20:54:16.918Z INFO  [rustowlc::core] borrow checked: 61 / 116
+2026-02-16T20:54:16.918Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.918Z INFO  [rustowlc::core] start borrowck of DefId(0:27 ~ mb1_memmap[f6a0]::frames::align_down)
+2026-02-16T20:54:16.918Z INFO  [rustowlc::core::analyze] facts of DefId(0:27 ~ mb1_memmap[f6a0]::frames::align_down) prepared; start analyze of DefId(0:27 ~ mb1_memmap[f6a0]::frames::align_down)
+2026-02-16T20:54:16.918Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.918Z INFO  [rustowlc::core] borrow checked: 62 / 116
+2026-02-16T20:54:16.918Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.918Z INFO  [rustowlc::core] start borrowck of DefId(0:33 ~ mb1_memmap[f6a0]::frames::{impl#4}::new)
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] facts of DefId(0:33 ~ mb1_memmap[f6a0]::frames::{impl#4}::new) prepared; start analyze of DefId(0:33 ~ mb1_memmap[f6a0]::frames::{impl#4}::new)
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core] borrow checked: 63 / 116
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core] start borrowck of DefId(0:37 ~ mb1_memmap[f6a0]::frames::{impl#5}::next)
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] facts of DefId(0:37 ~ mb1_memmap[f6a0]::frames::{impl#5}::next) prepared; start analyze of DefId(0:37 ~ mb1_memmap[f6a0]::frames::{impl#5}::next)
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core] borrow checked: 64 / 116
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core] start borrowck of DefId(0:165 ~ mb1_memmap[f6a0]::raw::{impl#4}::clone)
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] facts of DefId(0:165 ~ mb1_memmap[f6a0]::raw::{impl#4}::clone) prepared; start analyze of DefId(0:165 ~ mb1_memmap[f6a0]::raw::{impl#4}::clone)
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core] borrow checked: 65 / 116
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.919Z INFO  [rustowlc::core] start borrowck of DefId(0:168 ~ mb1_memmap[f6a0]::raw::{impl#6}::fmt)
+2026-02-16T20:54:16.920Z INFO  [rustowlc::core::analyze] facts of DefId(0:168 ~ mb1_memmap[f6a0]::raw::{impl#6}::fmt) prepared; start analyze of DefId(0:168 ~ mb1_memmap[f6a0]::raw::{impl#6}::fmt)
+2026-02-16T20:54:16.921Z INFO  [rustowlc::core] borrow checked: 66 / 116
+2026-02-16T20:54:16.921Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.921Z INFO  [rustowlc::core] start borrowck of DefId(0:171 ~ mb1_memmap[f6a0]::raw::{impl#8}::eq)
+2026-02-16T20:54:16.921Z INFO  [rustowlc::core::analyze] facts of DefId(0:171 ~ mb1_memmap[f6a0]::raw::{impl#8}::eq) prepared; start analyze of DefId(0:171 ~ mb1_memmap[f6a0]::raw::{impl#8}::eq)
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core] borrow checked: 67 / 116
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core] start borrowck of DefId(0:173 ~ mb1_memmap[f6a0]::raw::{impl#9}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core::analyze] facts of DefId(0:173 ~ mb1_memmap[f6a0]::raw::{impl#9}::assert_receiver_is_total_eq) prepared; start analyze of DefId(0:173 ~ mb1_memmap[f6a0]::raw::{impl#9}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core] borrow checked: 68 / 116
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core] start borrowck of DefId(0:42 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_size_unaligned)
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core::analyze] facts of DefId(0:42 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_size_unaligned) prepared; start analyze of DefId(0:42 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_size_unaligned)
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core] borrow checked: 69 / 116
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.922Z INFO  [rustowlc::core] start borrowck of DefId(0:43 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_base_addr_unaligned)
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] facts of DefId(0:43 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_base_addr_unaligned) prepared; start analyze of DefId(0:43 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_base_addr_unaligned)
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core] borrow checked: 70 / 116
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core] start borrowck of DefId(0:44 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_length_unaligned)
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] facts of DefId(0:44 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_length_unaligned) prepared; start analyze of DefId(0:44 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_length_unaligned)
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core] borrow checked: 71 / 116
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core] start borrowck of DefId(0:45 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_type_unaligned)
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] facts of DefId(0:45 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_type_unaligned) prepared; start analyze of DefId(0:45 ~ mb1_memmap[f6a0]::raw::{impl#0}::get_type_unaligned)
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core] borrow checked: 72 / 116
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core] start borrowck of DefId(0:46 ~ mb1_memmap[f6a0]::raw::raw)
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] facts of DefId(0:46 ~ mb1_memmap[f6a0]::raw::raw) prepared; start analyze of DefId(0:46 ~ mb1_memmap[f6a0]::raw::raw)
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core] borrow checked: 73 / 116
+2026-02-16T20:54:16.923Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.924Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.924Z INFO  [rustowlc::core] start borrowck of DefId(0:47 ~ mb1_memmap[f6a0]::raw::push_entry)
+2026-02-16T20:54:16.924Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.930Z INFO  [rustowlc::core::analyze] facts of DefId(0:47 ~ mb1_memmap[f6a0]::raw::push_entry) prepared; start analyze of DefId(0:47 ~ mb1_memmap[f6a0]::raw::push_entry)
+2026-02-16T20:54:16.933Z INFO  [rustowlc::core] borrow checked: 74 / 116
+2026-02-16T20:54:16.933Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.933Z INFO  [rustowlc::core] start borrowck of DefId(0:48 ~ mb1_memmap[f6a0]::raw::read_one)
+2026-02-16T20:54:16.933Z INFO  [rustowlc::core::analyze] facts of DefId(0:48 ~ mb1_memmap[f6a0]::raw::read_one) prepared; start analyze of DefId(0:48 ~ mb1_memmap[f6a0]::raw::read_one)
+2026-02-16T20:54:16.933Z INFO  [rustowlc::core] borrow checked: 75 / 116
+2026-02-16T20:54:16.933Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+{"$message_type":"diagnostic","message":"unused variable: `buf`","code":{"code":"unused_variables","explanation":null},"level":"warning","spans":[{"file_name":"src/raw.rs","byte_start":4028,"byte_end":4031,"line_start":136,"line_end":136,"column_start":16,"column_end":19,"is_primary":true,"text":[{"text":"    pub fn new(buf: &'a [u8]) -> Self {","highlight_start":16,"highlight_end":19}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"if this is intentional, prefix it with an underscore","code":null,"level":"help","spans":[{"file_name":"src/raw.rs","byte_start":4028,"byte_end":4031,"line_start":136,"line_end":136,"column_start":16,"column_end":19,"is_primary":true,"text":[{"text":"    pub fn new(buf: &'a [u8]) -> Self {","highlight_start":16,"highlight_end":19}],"label":null,"suggested_replacement":"_buf","suggestion_applicability":"MaybeIncorrect","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: unused variable: `buf`\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/raw.rs:136:16\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m136\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0m    pub fn new(buf: &'a [u8]) -> Self {\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m                \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[33mhelp: if this is intentional, prefix it with an underscore: `_buf`\u001b[0m\n\n"}
+2026-02-16T20:54:16.933Z INFO  [rustowlc::core] start borrowck of DefId(0:54 ~ mb1_memmap[f6a0]::raw::{impl#1}::new)
+2026-02-16T20:54:16.933Z INFO  [rustowlc::core::analyze] facts of DefId(0:54 ~ mb1_memmap[f6a0]::raw::{impl#1}::new) prepared; start analyze of DefId(0:54 ~ mb1_memmap[f6a0]::raw::{impl#1}::new)
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core] borrow checked: 76 / 116
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core] start borrowck of DefId(0:58 ~ mb1_memmap[f6a0]::raw::{impl#2}::next)
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] facts of DefId(0:58 ~ mb1_memmap[f6a0]::raw::{impl#2}::next) prepared; start analyze of DefId(0:58 ~ mb1_memmap[f6a0]::raw::{impl#2}::next)
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core] borrow checked: 77 / 116
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core] start borrowck of DefId(0:179 ~ mb1_memmap[f6a0]::raw::{impl#10}::clone)
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] facts of DefId(0:179 ~ mb1_memmap[f6a0]::raw::{impl#10}::clone) prepared; start analyze of DefId(0:179 ~ mb1_memmap[f6a0]::raw::{impl#10}::clone)
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core] borrow checked: 78 / 116
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core] start borrowck of DefId(0:182 ~ mb1_memmap[f6a0]::raw::{impl#12}::fmt)
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.934Z INFO  [rustowlc::core::analyze] facts of DefId(0:182 ~ mb1_memmap[f6a0]::raw::{impl#12}::fmt) prepared; start analyze of DefId(0:182 ~ mb1_memmap[f6a0]::raw::{impl#12}::fmt)
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core] borrow checked: 79 / 116
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core] start borrowck of DefId(0:185 ~ mb1_memmap[f6a0]::raw::{impl#14}::eq)
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] facts of DefId(0:185 ~ mb1_memmap[f6a0]::raw::{impl#14}::eq) prepared; start analyze of DefId(0:185 ~ mb1_memmap[f6a0]::raw::{impl#14}::eq)
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core] borrow checked: 80 / 116
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core] start borrowck of DefId(0:187 ~ mb1_memmap[f6a0]::raw::{impl#15}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] facts of DefId(0:187 ~ mb1_memmap[f6a0]::raw::{impl#15}::assert_receiver_is_total_eq) prepared; start analyze of DefId(0:187 ~ mb1_memmap[f6a0]::raw::{impl#15}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core] borrow checked: 81 / 116
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core] start borrowck of DefId(0:60 ~ mb1_memmap[f6a0]::raw::{impl#3}::end)
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] facts of DefId(0:60 ~ mb1_memmap[f6a0]::raw::{impl#3}::end) prepared; start analyze of DefId(0:60 ~ mb1_memmap[f6a0]::raw::{impl#3}::end)
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core] borrow checked: 82 / 116
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core] start borrowck of DefId(0:61 ~ mb1_memmap[f6a0]::raw::sanitize)
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.936Z INFO  [rustowlc::core::analyze] facts of DefId(0:61 ~ mb1_memmap[f6a0]::raw::sanitize) prepared; start analyze of DefId(0:61 ~ mb1_memmap[f6a0]::raw::sanitize)
+2026-02-16T20:54:16.937Z INFO  [rustowlc::core] borrow checked: 83 / 116
+2026-02-16T20:54:16.937Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.937Z INFO  [rustowlc::core] start borrowck of DefId(0:197 ~ mb1_memmap[f6a0]::raw::{impl#16}::clone)
+2026-02-16T20:54:16.937Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.937Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.937Z INFO  [rustowlc::core::analyze] facts of DefId(0:197 ~ mb1_memmap[f6a0]::raw::{impl#16}::clone) prepared; start analyze of DefId(0:197 ~ mb1_memmap[f6a0]::raw::{impl#16}::clone)
+2026-02-16T20:54:16.938Z INFO  [rustowlc::core] borrow checked: 84 / 116
+2026-02-16T20:54:16.938Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.938Z INFO  [rustowlc::core] start borrowck of DefId(0:199 ~ mb1_memmap[f6a0]::raw::{impl#17}::fmt)
+2026-02-16T20:54:16.938Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.939Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.939Z INFO  [rustowlc::core::analyze] facts of DefId(0:199 ~ mb1_memmap[f6a0]::raw::{impl#17}::fmt) prepared; start analyze of DefId(0:199 ~ mb1_memmap[f6a0]::raw::{impl#17}::fmt)
+2026-02-16T20:54:16.941Z INFO  [rustowlc::core] borrow checked: 85 / 116
+2026-02-16T20:54:16.941Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.941Z INFO  [rustowlc::core] start borrowck of DefId(0:202 ~ mb1_memmap[f6a0]::raw::{impl#19}::eq)
+2026-02-16T20:54:16.943Z INFO  [rustowlc::core::analyze] facts of DefId(0:202 ~ mb1_memmap[f6a0]::raw::{impl#19}::eq) prepared; start analyze of DefId(0:202 ~ mb1_memmap[f6a0]::raw::{impl#19}::eq)
+2026-02-16T20:54:16.945Z INFO  [rustowlc::core] borrow checked: 86 / 116
+2026-02-16T20:54:16.945Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.945Z INFO  [rustowlc::core] start borrowck of DefId(0:204 ~ mb1_memmap[f6a0]::raw::{impl#20}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.945Z INFO  [rustowlc::core::analyze] facts of DefId(0:204 ~ mb1_memmap[f6a0]::raw::{impl#20}::assert_receiver_is_total_eq) prepared; start analyze of DefId(0:204 ~ mb1_memmap[f6a0]::raw::{impl#20}::assert_receiver_is_total_eq)
+2026-02-16T20:54:16.945Z INFO  [rustowlc::core] borrow checked: 87 / 116
+2026-02-16T20:54:16.945Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.945Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.946Z INFO  [rustowlc::core] start borrowck of DefId(0:67 ~ mb1_memmap[f6a0]::raw::tests::push_mb1_entry)
+2026-02-16T20:54:16.947Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.947Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.948Z INFO  [rustowlc::core::analyze] facts of DefId(0:67 ~ mb1_memmap[f6a0]::raw::tests::push_mb1_entry) prepared; start analyze of DefId(0:67 ~ mb1_memmap[f6a0]::raw::tests::push_mb1_entry)
+2026-02-16T20:54:16.948Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.951Z INFO  [rustowlc::core] borrow checked: 88 / 116
+2026-02-16T20:54:16.951Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.951Z INFO  [rustowlc::core] start borrowck of DefId(0:68 ~ mb1_memmap[f6a0]::raw::tests::truncate_end)
+2026-02-16T20:54:16.951Z INFO  [rustowlc::core::analyze] facts of DefId(0:68 ~ mb1_memmap[f6a0]::raw::tests::truncate_end) prepared; start analyze of DefId(0:68 ~ mb1_memmap[f6a0]::raw::tests::truncate_end)
+2026-02-16T20:54:16.952Z INFO  [rustowlc::core] borrow checked: 89 / 116
+2026-02-16T20:54:16.952Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.952Z INFO  [rustowlc::core] start borrowck of DefId(0:208 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected#1)
+2026-02-16T20:54:16.952Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.955Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.956Z INFO  [rustowlc::core::analyze] facts of DefId(0:208 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected#1) prepared; start analyze of DefId(0:208 ~ mb1_memmap[f6a0]::raw::tests::rawentry_layout_is_expected#1)
+2026-02-16T20:54:16.961Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.961Z INFO  [rustowlc::core] borrow checked: 90 / 116
+2026-02-16T20:54:16.961Z INFO  [rustowlc::core] start borrowck of DefId(0:214 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal#1)
+2026-02-16T20:54:16.966Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:16.971Z INFO  [rustowlc::core::analyze] facts of DefId(0:214 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal#1) prepared; start analyze of DefId(0:214 ~ mb1_memmap[f6a0]::raw::tests::raw_builder_minimal#1)
+2026-02-16T20:54:16.982Z INFO  [rustowlc::core] borrow checked: 91 / 116
+2026-02-16T20:54:16.982Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.982Z INFO  [rustowlc::core] start borrowck of DefId(0:222 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal#1)
+2026-02-16T20:54:16.984Z INFO  [rustowlc::core::analyze] facts of DefId(0:222 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal#1) prepared; start analyze of DefId(0:222 ~ mb1_memmap[f6a0]::raw::tests::push_entry_appends_24_for_minimal#1)
+2026-02-16T20:54:16.988Z INFO  [rustowlc::core] borrow checked: 92 / 116
+2026-02-16T20:54:16.988Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:16.988Z INFO  [rustowlc::core] start borrowck of DefId(0:227 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal#1)
+2026-02-16T20:54:16.992Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.006Z INFO  [rustowlc::core::analyze] facts of DefId(0:227 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal#1) prepared; start analyze of DefId(0:227 ~ mb1_memmap[f6a0]::raw::tests::push_entry_writes_expected_wire_format_for_minimal#1)
+2026-02-16T20:54:17.011Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.020Z INFO  [rustowlc::core] borrow checked: 93 / 116
+2026-02-16T20:54:17.020Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.020Z INFO  [rustowlc::core] start borrowck of DefId(0:235 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes#1)
+2026-02-16T20:54:17.026Z INFO  [rustowlc::core::analyze] facts of DefId(0:235 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes#1) prepared; start analyze of DefId(0:235 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes#1)
+2026-02-16T20:54:17.033Z INFO  [rustowlc::core] borrow checked: 94 / 116
+2026-02-16T20:54:17.033Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.033Z INFO  [rustowlc::core] start borrowck of DefId(0:237 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes#1::{constant#0})
+2026-02-16T20:54:17.033Z INFO  [rustowlc::core::analyze] facts of DefId(0:237 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes#1::{constant#0}) prepared; start analyze of DefId(0:237 ~ mb1_memmap[f6a0]::raw::tests::push_entry_with_extra_payload_appends_extra_bytes#1::{constant#0})
+2026-02-16T20:54:17.033Z INFO  [rustowlc::core] borrow checked: 95 / 116
+2026-02-16T20:54:17.033Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.033Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.038Z INFO  [rustowlc::core] start borrowck of DefId(0:242 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1)
+2026-02-16T20:54:17.039Z INFO  [rustowlc::core] start borrowck of DefId(0:243 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1::{closure#0})
+2026-02-16T20:54:17.040Z INFO  [rustowlc::core::analyze] facts of DefId(0:243 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1::{closure#0}) prepared; start analyze of DefId(0:243 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1::{closure#0})
+2026-02-16T20:54:17.040Z INFO  [rustowlc::core] borrow checked: 96 / 116
+2026-02-16T20:54:17.040Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.041Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.041Z INFO  [rustowlc::core] start borrowck of DefId(0:244 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1::{closure#1})
+2026-02-16T20:54:17.042Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.046Z INFO  [rustowlc::core::analyze] facts of DefId(0:244 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1::{closure#1}) prepared; start analyze of DefId(0:244 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1::{closure#1})
+2026-02-16T20:54:17.053Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.059Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.059Z INFO  [rustowlc::core] borrow checked: 97 / 116
+2026-02-16T20:54:17.069Z INFO  [rustowlc::core::analyze] facts of DefId(0:242 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1) prepared; start analyze of DefId(0:242 ~ mb1_memmap[f6a0]::raw::tests::roundtrip_random_entries#1)
+2026-02-16T20:54:17.071Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.081Z INFO  [rustowlc::core] borrow checked: 98 / 116
+2026-02-16T20:54:17.081Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.082Z INFO  [rustowlc::core] start borrowck of DefId(0:249 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header#1)
+2026-02-16T20:54:17.083Z INFO  [rustowlc::core::analyze] facts of DefId(0:249 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header#1) prepared; start analyze of DefId(0:249 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_header#1)
+2026-02-16T20:54:17.087Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.087Z INFO  [rustowlc::core] borrow checked: 99 / 116
+2026-02-16T20:54:17.087Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.087Z INFO  [rustowlc::core] start borrowck of DefId(0:254 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20#1)
+2026-02-16T20:54:17.089Z INFO  [rustowlc::core::analyze] facts of DefId(0:254 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20#1) prepared; start analyze of DefId(0:254 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_size_less_than_20#1)
+2026-02-16T20:54:17.091Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.093Z INFO  [rustowlc::core] borrow checked: 100 / 116
+2026-02-16T20:54:17.093Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.093Z INFO  [rustowlc::core] start borrowck of DefId(0:259 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry#1)
+2026-02-16T20:54:17.095Z INFO  [rustowlc::core::analyze] facts of DefId(0:259 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry#1) prepared; start analyze of DefId(0:259 ~ mb1_memmap[f6a0]::raw::tests::read_one_rejects_truncated_entry#1)
+2026-02-16T20:54:17.096Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.099Z INFO  [rustowlc::core] borrow checked: 101 / 116
+2026-02-16T20:54:17.099Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.099Z INFO  [rustowlc::core] start borrowck of DefId(0:264 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok#1)
+2026-02-16T20:54:17.102Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.116Z INFO  [rustowlc::core::analyze] facts of DefId(0:264 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok#1) prepared; start analyze of DefId(0:264 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_minimal_ok#1)
+2026-02-16T20:54:17.131Z INFO  [rustowlc::core] borrow checked: 102 / 116
+2026-02-16T20:54:17.131Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.131Z INFO  [rustowlc::core] start borrowck of DefId(0:273 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload#1)
+2026-02-16T20:54:17.149Z INFO  [rustowlc::core::analyze] facts of DefId(0:273 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload#1) prepared; start analyze of DefId(0:273 ~ mb1_memmap[f6a0]::raw::tests::read_one_parses_and_skips_extra_payload#1)
+2026-02-16T20:54:17.163Z INFO  [rustowlc::core] borrow checked: 103 / 116
+2026-02-16T20:54:17.163Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.164Z INFO  [rustowlc::core] start borrowck of DefId(0:282 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends#1)
+2026-02-16T20:54:17.166Z INFO  [rustowlc::core::analyze] facts of DefId(0:282 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends#1) prepared; start analyze of DefId(0:282 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_single_entry_and_ends#1)
+2026-02-16T20:54:17.170Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.172Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.172Z INFO  [rustowlc::core] borrow checked: 104 / 116
+2026-02-16T20:54:17.172Z INFO  [rustowlc::core] start borrowck of DefId(0:287 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order#1)
+2026-02-16T20:54:17.173Z INFO  [rustowlc::core] start borrowck of DefId(0:288 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order#1::{closure#0})
+2026-02-16T20:54:17.173Z INFO  [rustowlc::core::analyze] facts of DefId(0:288 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order#1::{closure#0}) prepared; start analyze of DefId(0:288 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order#1::{closure#0})
+2026-02-16T20:54:17.173Z INFO  [rustowlc::core] borrow checked: 105 / 116
+2026-02-16T20:54:17.173Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.173Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.176Z INFO  [rustowlc::core::analyze] facts of DefId(0:287 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order#1) prepared; start analyze of DefId(0:287 ~ mb1_memmap[f6a0]::raw::tests::iter_parses_multiple_entries_in_order#1)
+2026-02-16T20:54:17.178Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.182Z INFO  [rustowlc::core] borrow checked: 106 / 116
+2026-02-16T20:54:17.182Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.182Z INFO  [rustowlc::core] start borrowck of DefId(0:293 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop#1)
+2026-02-16T20:54:17.183Z INFO  [rustowlc::core::analyze] facts of DefId(0:293 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop#1) prepared; start analyze of DefId(0:293 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop#1)
+2026-02-16T20:54:17.187Z INFO  [rustowlc::core] borrow checked: 107 / 116
+2026-02-16T20:54:17.187Z INFO  [rustowlc::core] start borrowck of DefId(0:294 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop#1::{constant#0})
+2026-02-16T20:54:17.187Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.188Z INFO  [rustowlc::core::analyze] facts of DefId(0:294 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop#1::{constant#0}) prepared; start analyze of DefId(0:294 ~ mb1_memmap[f6a0]::raw::tests::iter_size_zero_does_not_infinite_loop#1::{constant#0})
+2026-02-16T20:54:17.188Z INFO  [rustowlc::core] borrow checked: 108 / 116
+2026-02-16T20:54:17.188Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.188Z INFO  [rustowlc::core] start borrowck of DefId(0:298 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops#1)
+2026-02-16T20:54:17.188Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.189Z INFO  [rustowlc::core::analyze] facts of DefId(0:298 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops#1) prepared; start analyze of DefId(0:298 ~ mb1_memmap[f6a0]::raw::tests::iter_truncated_entry_yields_error_once_then_stops#1)
+2026-02-16T20:54:17.189Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.190Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.192Z INFO  [rustowlc::core] borrow checked: 109 / 116
+2026-02-16T20:54:17.192Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.192Z INFO  [rustowlc::core] start borrowck of DefId(0:73 ~ mb1_memmap[f6a0]::tests::common::init)
+2026-02-16T20:54:17.192Z INFO  [rustowlc::core::analyze] facts of DefId(0:73 ~ mb1_memmap[f6a0]::tests::common::init) prepared; start analyze of DefId(0:73 ~ mb1_memmap[f6a0]::tests::common::init)
+2026-02-16T20:54:17.192Z INFO  [rustowlc::core] borrow checked: 110 / 116
+2026-02-16T20:54:17.192Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.192Z INFO  [rustowlc::core] start borrowck of DefId(0:77 ~ mb1_memmap[f6a0]::tests::prelude::init)
+2026-02-16T20:54:17.192Z INFO  [rustowlc::core] start borrowck of DefId(0:78 ~ mb1_memmap[f6a0]::tests::prelude::init::{closure#0})
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] facts of DefId(0:78 ~ mb1_memmap[f6a0]::tests::prelude::init::{closure#0}) prepared; start analyze of DefId(0:78 ~ mb1_memmap[f6a0]::tests::prelude::init::{closure#0})
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core] borrow checked: 111 / 116
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] facts of DefId(0:77 ~ mb1_memmap[f6a0]::tests::prelude::init) prepared; start analyze of DefId(0:77 ~ mb1_memmap[f6a0]::tests::prelude::init)
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core] borrow checked: 112 / 116
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core] start borrowck of DefId(0:93 ~ mb1_memmap[f6a0]::tests::prelude::decode_hex_relaxed)
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core] start borrowck of DefId(0:94 ~ mb1_memmap[f6a0]::tests::prelude::decode_hex_relaxed::{closure#0})
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] facts of DefId(0:94 ~ mb1_memmap[f6a0]::tests::prelude::decode_hex_relaxed::{closure#0}) prepared; start analyze of DefId(0:94 ~ mb1_memmap[f6a0]::tests::prelude::decode_hex_relaxed::{closure#0})
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core] borrow checked: 113 / 116
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.193Z INFO  [rustowlc::core::analyze] facts of DefId(0:93 ~ mb1_memmap[f6a0]::tests::prelude::decode_hex_relaxed) prepared; start analyze of DefId(0:93 ~ mb1_memmap[f6a0]::tests::prelude::decode_hex_relaxed)
+2026-02-16T20:54:17.194Z INFO  [rustowlc::core] borrow checked: 114 / 116
+2026-02-16T20:54:17.194Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.194Z INFO  [rustowlc::core] start borrowck of DefId(0:95 ~ mb1_memmap[f6a0]::tests::prelude::hexdump)
+2026-02-16T20:54:17.194Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.195Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.204Z INFO  [rustowlc::core::analyze] facts of DefId(0:95 ~ mb1_memmap[f6a0]::tests::prelude::hexdump) prepared; start analyze of DefId(0:95 ~ mb1_memmap[f6a0]::tests::prelude::hexdump)
+2026-02-16T20:54:17.205Z INFO  [rustowlc::core] borrow checked: 115 / 116
+2026-02-16T20:54:17.205Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.205Z INFO  [rustowlc::core] start borrowck of DefId(0:299 ~ mb1_memmap[f6a0]::main)
+2026-02-16T20:54:17.206Z INFO  [rustowlc::core::analyze] facts of DefId(0:299 ~ mb1_memmap[f6a0]::main) prepared; start analyze of DefId(0:299 ~ mb1_memmap[f6a0]::main)
+2026-02-16T20:54:17.206Z INFO  [rustowlc::core] borrow checked: 116 / 116
+2026-02-16T20:54:17.206Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2026-02-16T20:54:17.206Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.206Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.206Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.215Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.219Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.219Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.223Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.224Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.227Z INFO  [rustowlc::core::analyze] borrow check finished
+2026-02-16T20:54:17.228Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.228Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.229Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.233Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.238Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.239Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proptest-1.10.0/src/sugar.rs
+2026-02-16T20:54:17.244Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proptest-1.10.0/src/sugar.rs
+2026-02-16T20:54:17.244Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.250Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.250Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.256Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.256Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.262Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.262Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.268Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.268Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.274Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.275Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.281Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.282Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.288Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.289Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.296Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.296Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.303Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.303Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/tests/prelude.rs
+2026-02-16T20:54:17.303Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/tests/prelude.rs
+2026-02-16T20:54:17.303Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.303Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.306Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.306Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.307Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.307Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.308Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.311Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.332Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.332Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.353Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.355Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.355Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.355Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.355Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.355Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.355Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.367Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.411Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.411Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.419Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.420Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.420Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.421Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.422Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.422Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.434Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.442Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.446Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.446Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.446Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/frames.rs
+2026-02-16T20:54:17.446Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.446Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.446Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.448Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.449Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.449Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.450Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.451Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.473Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.473Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.473Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.475Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.475Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.475Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.475Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.475Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.480Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.486Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.510Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.511Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.564Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.598Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.617Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.622Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.678Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.742Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:17.812Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:18.042Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:18.042Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:18.048Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proptest-1.10.0/src/sugar.rs
+2026-02-16T20:54:18.215Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:18.579Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:18.850Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proptest-1.10.0/src/sugar.rs
+2026-02-16T20:54:19.137Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proptest-1.10.0/src/sugar.rs
+2026-02-16T20:54:19.210Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:19.283Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:19.360Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:19.718Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:19.720Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:19.839Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:19.840Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:19.987Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:20.046Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:20.046Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/tests/common.rs
+2026-02-16T20:54:20.046Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/tests/prelude.rs
+2026-02-16T20:54:20.046Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/tests/prelude.rs
+2026-02-16T20:54:20.047Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/tests/prelude.rs
+2026-02-16T20:54:20.047Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/tests/prelude.rs
+2026-02-16T20:54:20.088Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:20.445Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/raw.rs
+2026-02-16T20:54:20.445Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/lib.rs
+2026-02-16T20:54:20.473Z INFO  [rustowlc::core] analyzed one item of /Users/lucassimpson/code/rust/memmap/src/tests/prelude.rs
+{"$message_type":"diagnostic","message":"8 warnings emitted","code":null,"level":"warning","spans":[],"children":[],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: 8 warnings emitted\u001b[0m\n\n"}

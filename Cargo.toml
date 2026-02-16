@@ -16,7 +16,9 @@ crate-type = ["rlib"]
 [dependencies]
 color-eyre = "0.6.5"
 pretty_assertions = "1.4.1"
-rs-test = "0.18"
 insta = "1"
 proptest = "1"
+rstest = "0.26.1"
+similar-asserts = "1.7.0"
+hex = "0.4.3"
 

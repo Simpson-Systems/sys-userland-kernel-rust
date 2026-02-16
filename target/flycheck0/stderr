@@ -1,4 +1,1 @@
-    Updating crates.io index
-error: no matching package named `rs-test` found
-location searched: crates.io index
-required by package `mb1_memmap v0.1.0 (/Users/lucassimpson/code/rust/memmap)`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.10s

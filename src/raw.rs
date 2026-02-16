@@ -1,7 +1,8 @@
 // mb1_memmap.rs
 #![allow(dead_code)]
+use color_eyre::owo_colors::colors::xterm;
+
 use crate::tests::common;
-use crate::tests::prelude::*;
 #[repr(C, packed)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub struct RawEntry {
@@ -79,15 +80,14 @@ pub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {
     let length = entry.get_length_unaligned();
     let size = entry.get_size_unaligned();
 
-    let size_bytes = length.to_le_bytes();
+    let size_bytes = size.to_le_bytes();
     let base_addr_bytes = base_addr.to_le_bytes();
     let length_bytes = length.to_le_bytes();
     let tipo_bytes = tipo.to_le_bytes();
 
-    for byte in tipo_bytes {
+    for byte in size_bytes {
         buf.push(byte);
     }
-
     for byte in base_addr_bytes {
         buf.push(byte);
     }
@@ -95,7 +95,7 @@ pub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {
     for byte in length_bytes {
         buf.push(byte);
     }
-    for byte in size_bytes {
+    for byte in tipo_bytes {
         buf.push(byte);
     }
 }
@@ -252,7 +252,6 @@ mod tests {
 
     #[test]
     fn push_entry_appends_24_for_minimal() {
-        init();
         let mut buf = Vec::new();
         push_entry(&mut buf, raw(0x1000, 0x9000, 1));
         pretty_assertions::assert_eq!(buf.len(), 24);
@@ -274,11 +273,11 @@ mod tests {
         pretty_assertions::assert_eq!(buf[4..12], 0x1122334455667788u64.to_le_bytes());
         pretty_assertions::assert_eq!(buf[12..20], 0x0102030405060708u64.to_le_bytes());
         pretty_assertions::assert_eq!(buf[20..24], 0xAABBCCDDu32.to_le_bytes());
+        //insta::assert_debug_snapshot!(buf);
     }
 
     #[test]
     fn push_entry_with_extra_payload_appends_extra_bytes() {
-        crate::tests::common::init();
         let mut buf = Vec::new();
         let e = RawEntry {
             size: 28, // payload includes 8 extra bytes beyond the required 20
@@ -297,10 +296,34 @@ mod tests {
     // -------------------------
     // read_one behavior
     // -------------------------
+    use proptest::prelude::*;
+
+    proptest! {
+        #[test]
+        fn roundtrip_random_entries(
+            size in 20u32..100u32,
+            base in any::<u64>(),
+            length in any::<u64>(),
+            typ in any::<u32>(),
+        ) {
+            let entry = RawEntry {
+                size,
+                base_addr: base,
+                length,
+                typ,
+            };
+
+            let mut buf = Vec::new();
+            push_entry(&mut buf, entry);
+
+            let (parsed, _) = read_one(&buf).unwrap();
+
+            prop_assert_eq!(parsed, entry);
+        }
+    }
 
     #[test]
     fn read_one_rejects_truncated_header() {
-        init();
         let buf = vec![0xAA, 0xBB, 0xCC]; // < 4
         let err = read_one(&buf).unwrap_err();
         pretty_assertions::assert_eq!(err, MmapError::TruncatedHeader { have: 3 });
@@ -308,7 +331,6 @@ mod tests {
 
     #[test]
     fn read_one_rejects_size_less_than_20() {
-        init();
         let mut buf = Vec::new();
         push_mb1_entry(&mut buf, 19, 0x1000, 0x1000, 1);
         let err = read_one(&buf).unwrap_err();
@@ -317,7 +339,6 @@ mod tests {
 
     #[test]
     fn read_one_rejects_truncated_entry() {
-        init();
         let mut buf = Vec::new();
         push_mb1_entry(&mut buf, 20, 0x1000, 0x1000, 1);
         truncate_end(&mut buf, 1);
@@ -335,7 +356,6 @@ mod tests {
 
     #[test]
     fn read_one_parses_minimal_ok() {
-        init();
         let mut buf = Vec::new();
         push_mb1_entry(&mut buf, 20, 0x1000, 0x9000, 1);
 
@@ -349,7 +369,6 @@ mod tests {
 
     #[test]
     fn read_one_parses_and_skips_extra_payload() {
-        init();
         let mut buf = Vec::new();
         push_mb1_entry(&mut buf, 28, 0x1000, 0x1111, 2);
 
@@ -379,7 +398,6 @@ mod tests {
 
     #[test]
     fn iter_parses_multiple_entries_in_order() {
-        init();
         let mut buf = Vec::new();
         push_mb1_entry(&mut buf, 20, 0x1000, 0x1000, 1);
         push_mb1_entry(&mut buf, 28, 0x3000, 0x2000, 2);
@@ -394,7 +412,6 @@ mod tests {
 
     #[test]
     fn iter_size_zero_does_not_infinite_loop() {
-        init();
         // size=0 is invalid (size < 20). Iterator must not get stuck.
         let mut buf = Vec::new();
         buf.extend_from_slice(&0u32.to_le_bytes());
@@ -409,7 +426,6 @@ mod tests {
 
     #[test]
     fn iter_truncated_entry_yields_error_once_then_stops() {
-        init();
         let mut buf = Vec::new();
         push_mb1_entry(&mut buf, 20, 0x1000, 0x1000, 1);
         truncate_end(&mut buf, 5);
