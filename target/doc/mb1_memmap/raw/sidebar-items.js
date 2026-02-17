@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["MmapError"],"fn":["push_entry","raw","read_one","sanitize"],"struct":["Mb1MmapIter","MemRegion","RawEntry"]};

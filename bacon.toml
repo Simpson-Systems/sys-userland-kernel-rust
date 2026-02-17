@@ -1,0 +1,12 @@
+[jobs.check]
+command = ["cargo", "check"]
+need_stdout = false
+
+[jobs.test]
+command = ["cargo", "test", "--", "--nocapture", "--test-threads=1"]
+need_stdout = true
+
+[jobs.clippy]
+command = ["cargo", "clippy", "--", "-W", "clippy::all"]
+need_stdout = false
+

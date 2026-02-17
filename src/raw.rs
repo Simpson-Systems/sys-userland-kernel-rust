@@ -1,8 +1,8 @@
 // mb1_memmap.rs
 #![allow(dead_code)]
-use color_eyre::owo_colors::colors::xterm;
+#![allow(unused_variables)]
+#![allow(unused_imports)]
 
-use crate::tests::common;
 #[repr(C, packed)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub struct RawEntry {
@@ -98,6 +98,16 @@ pub fn push_entry(buf: &mut Vec<u8>, entry: RawEntry) {
     for byte in tipo_bytes {
         buf.push(byte);
     }
+
+    if size > 20 as u32 {
+        let num: u32 = 0;
+        let diff = size.saturating_sub(20) as usize;
+        // @doc: saturating_sub
+
+        if diff > 0 {
+            buf.resize(buf.len() + diff, 0xEE);
+        }
+    }
 }
 
 /// Parse ONE entry from a byte slice.
@@ -113,12 +123,40 @@ pub fn read_one(buf: &[u8]) -> Result<(RawEntry, usize), MmapError> {
     // - read base_addr, length, typ from first 20 bytes of payload
     // - ignore extra payload bytes (size-20)
     // - return entry with that size field preserved (even if >20)
-    if buf.len() < 4 {
+    let size = buf.len();
+    if size < 4 {
         return Err(MmapError::TruncatedHeader { have: buf.len() });
-    }
+    } else if size < 20 {
+        return Err(MmapError::SizeTooSmall {
+            size: buf.len() as u32,
+        });
+    } else {
+        let base_addr = read_u64(buf, 4);
+        let length = read_u64(buf, 8);
+        let typ = read_u32(buf, 12);
+        let entry = RawEntry {
+            size: size as u32,
+            base_addr: base_addr,
+            length: length,
+            typ: typ,
+        };
 
-    todo!()
+        Ok((entry, size))
+    }
 }
+
+fn read_u32(bytes: &[u8], offset: usize) -> u32 {
+    let mut arr = [0u8; 4];
+    arr.copy_from_slice(&bytes[offset..offset + 4]);
+    u32::from_le_bytes(arr)
+}
+
+fn read_u64(bytes: &[u8], offset: usize) -> u64 {
+    let mut arr = [0u8; 8];
+    arr.copy_from_slice(&bytes[offset..offset + 8]);
+    u64::from_le_bytes(arr)
+}
+
 /*
 * how to write tests
 * @doc: testing
@@ -135,7 +173,6 @@ pub struct Mb1MmapIter<'a> {
 impl<'a> Mb1MmapIter<'a> {
     pub fn new(buf: &'a [u8]) -> Self {
         // TODO
-        todo!()
     }
 }
 
@@ -289,7 +326,7 @@ mod tests {
 
         // total bytes = 4 + size
         pretty_assertions::assert_eq!(buf.len(), (4 + 28) as usize);
-        // extra bytes should exist (whatever pattern you chose; tests assume 0xEE)
+        // extra bytes should exist  (whatever pattern you chose; tests assume 0xEE)
         pretty_assertions::assert_eq!(&buf[24..32], &[0xEE; 8]);
     }
 

@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["mb1_memmap",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> for <a class=\"struct\" href=\"mb1_memmap/frames/struct.MemRegion.html\" title=\"struct mb1_memmap::frames::MemRegion\">MemRegion</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> for <a class=\"struct\" href=\"mb1_memmap/frames/struct.PhysFrame.html\" title=\"struct mb1_memmap::frames::PhysFrame\">PhysFrame</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> for <a class=\"struct\" href=\"mb1_memmap/frames/struct.RawEntry.html\" title=\"struct mb1_memmap::frames::RawEntry\">RawEntry</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> for <a class=\"struct\" href=\"mb1_memmap/raw/struct.MemRegion.html\" title=\"struct mb1_memmap::raw::MemRegion\">MemRegion</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> for <a class=\"struct\" href=\"mb1_memmap/raw/struct.RawEntry.html\" title=\"struct mb1_memmap::raw::RawEntry\">RawEntry</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[1378]}

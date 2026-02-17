@@ -1,6 +1,7 @@
 // When running tests, Rust automatically enables std.
 // When used in kernel, std disappears.
-
+#![allow(dead_code)]
+#![allow(unused_variables)]
 #![cfg_attr(not(feature = "std"), no_std)]
 pub mod frames;
 pub mod raw;
@@ -14,4 +15,3 @@ pub mod tests;
 extern crate alloc;
 #[cfg(test)]
 extern crate std; // allows tests to use Vec, etc.
-use alloc::vec::Vec;

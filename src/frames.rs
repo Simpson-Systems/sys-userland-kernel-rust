@@ -17,6 +17,7 @@
 // In kernel: &[u8] comes from (ptr, len) from the bootloader
 
 #![allow(dead_code)]
+#![allow(unused_variables)]
 
 use core::marker::PhantomData;
 
