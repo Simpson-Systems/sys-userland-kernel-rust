@@ -4,16 +4,14 @@
 
 **Purpose:**
 Learn ownership, memory, and invariants in userland *before* writing a kernel.
-
-Rule:
-
-> If I can’t safely implement and test it here, I don’t understand it enough for kernel space.
-
-This repo teaches **how the computer actually works**, not just Rust.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 # Wiki
 Where most of the rust thoughts go
-![Wiki](https://github.com/lucassimpson0213/sys-userland-kernel-rust/wiki)
+[Wiki](https://github.com/lucassimpson0213/sys-userland-kernel-rust/wiki)
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 
 ## What I Do
