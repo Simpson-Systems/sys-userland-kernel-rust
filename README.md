@@ -11,7 +11,10 @@ Rule:
 
 This repo teaches **how the computer actually works**, not just Rust.
 
----
+## WIKI
+Where most of the rust thoughts go
+![Wiki](https://github.com/lucassimpson0213/sys-userland-kernel-rust/wiki)
+
 
 ## What I Do
 
