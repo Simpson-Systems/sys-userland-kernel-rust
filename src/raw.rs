@@ -3,6 +3,8 @@
 #![allow(unused_variables)]
 #![allow(unused_imports)]
 
+use std::marker::PhantomData;
+
 #[repr(C, packed)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub struct RawEntry {
@@ -167,12 +169,42 @@ fn read_u64(bytes: &[u8], offset: usize) -> u64 {
 /// Must not infinite-loop (especially size==0).
 pub struct Mb1MmapIter<'a> {
     // TODO: store buf and current offset
-    _p: core::marker::PhantomData<&'a [u8]>,
+    buffer: &'a [u8],
+    offset: usize,
 }
 
 impl<'a> Mb1MmapIter<'a> {
+    /*
+     *
+     *  The size of the &'a[u8] is a fat pointer
+     *  It stores the size of the buffer, and the
+     *  reference to it
+     *  - https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=87a4f95e430cf82128388d6c019a36fc
+     *  I think it works like this:
+     *
+     *  &[T] is a fat pointer (composed of a pointer and size)
+     *  which is a borrowed slice.
+     *
+     *  Box<[T]> (and other owned pointing types) are fat
+     *  pointers (again composed of a pointer and size) which are an owned slice.
+     *
+     *  [T; N] are arrays which have their size known at compile time, so can be stored in place.
+     *
+     *  Since the size of Box<[T; N]> is also known at compile time,
+     *  the pointer does not need to store any additional data and is not fat.
+     *
+     *  In all cases, [T] and [T; N] are some way of describing contiguous memory.
+     *  The main distinction between a slice and an array is whether the size is known at compile time or not.
+     *
+     *
+     *
+     *
+     */
     pub fn new(buf: &'a [u8]) -> Self {
-        // TODO
+        Mb1MmapIter {
+            buffer: buf,
+            offset: 0,
+        }
     }
 }
 
@@ -190,7 +222,6 @@ impl<'a> Iterator for Mb1MmapIter<'a> {
         //     advance offset in a way that guarantees progress OR end iteration
         //     (common policy: return Some(Err(e)) and then set offset = buf.len())
         //     so you don't yield the same error forever.
-        todo!()
     }
 }
 
