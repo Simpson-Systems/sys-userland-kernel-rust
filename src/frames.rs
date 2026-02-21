@@ -16,6 +16,4 @@
 // In userland tests: &[u8] comes from Vec<u8>
 // In kernel: &[u8] comes from (ptr, len) from the bootloader
 
-#![allow(dead_code)]
-#![allow(unused_variables)]
 
