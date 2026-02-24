@@ -114,3 +114,51 @@ just miri
 * binary parsing
 * allocators
 * resource tracking
+
+# Systems Learning Plan (Short)
+
+## Goal
+Build the mental model needed to eventually write an operating system — without getting stuck at the hardware layer too early.
+
+---
+
+## The Learning Order
+
+1. Rust (Brown Book) — Local Correctness
+   - Learn ownership, lifetimes, and concurrency.
+   - Focus: why a single program behaves predictably.
+
+2. OSTEP — System Behavior
+   - Learn processes, scheduling, virtual memory, and synchronization.
+   - Focus: why multiple programs interact correctly.
+
+3. Userland Simulations in Rust — Experience
+   - Implement tiny simulations that recreate OS behavior.
+   - Focus: feel the problems an OS solves.
+
+   Recommended simulations:
+   - Scheduler (fairness & starvation)
+   - Memory allocator (fragmentation)
+   - Virtual memory illusion (isolation)
+   - Synchronization (race conditions)
+   - Toy filesystem (persistence)
+
+4. Return to Blog-OS — Hardware Reality
+   - Now learn interrupts, paging, and faults.
+   - Focus: how the CPU enforces the behaviors you already understand.
+
+---
+
+## Core Principle
+Do not rush features.  
+Each stage answers a different question:
+
+- Rust → “Why does my code work?”
+- OSTEP → “Why do programs coexist?”
+- Simulations → “What problems must the OS solve?”
+- Blog-OS → “How does the machine make it possible?”
+
+---
+
+## Success Check
+You’re progressing when system behavior becomes explainable before debugging — not when you add more code.
