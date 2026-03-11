@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug current lib test",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": ["test", "--lib", "--no-run"]
+            },
+            "args": ["test_set_then_contains", "--nocapture"],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

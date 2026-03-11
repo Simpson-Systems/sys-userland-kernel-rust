@@ -1,5 +1,3 @@
-use std::panic;
-
 use tracing::{instrument, trace};
 
 //https://docs.rs/fixedbitset/latest/fixedbitset/struct.FixedBitSet.html
@@ -87,9 +85,7 @@ impl BitSet {
         self.len = bit % 64;
         let index = bit / 64;
 
-        if bit > ((index + 1) * 64) {
-            panic!("Value is outside of range of bits");
-        }
+        trace!(index, "computed index");
 
         assert!(index < self.capacity, "Index out of bounds");
 
@@ -127,7 +123,7 @@ impl BitSet {
         let leftover = bit % 64;
         trace!(index, "computed contains index");
 
-        let lhs = self.bits[index] | 1_u64 << leftover;
+        let lhs = self.bits[index] & (1 << leftover);
         let rhs = (1_u64) << (leftover);
 
         trace!(
